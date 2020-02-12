@@ -1,0 +1,30 @@
+:root{
+--gray:rgb(233,236,235) ;
+ 
+--white:rgb(252,255,254);
+}
+
+body{
+    background-color: var(--white);
+}
+[class="Menu"]{
+display: flex;
+    justify-content: center;
+    flex-direction: row;
+align-content:space-between;
+margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+[class="Main"]{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+[class="Team"]{
+     margin-left: 5%;
+    margin-right: 5%;
+}
+[class="Lessons"]{
+     margin-left: 5%;
+    margin-right: 5%;
+}
+ 

@@ -1,0 +1,119 @@
+:root{
+--gray:rgb(233,236,235) ;
+ 
+--white:rgb(252,255,254);
+}
+
+body{
+    background-color: var(--white);
+}
+[class="Menu"]{
+display: flex;
+    justify-content: center;
+    flex-direction: row;
+align-content:space-between;
+margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+[class="Main"]{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+[class="Team"]{
+     margin-left: 5%;
+    margin-right: 5%;
+}
+[class="Lessons"]{
+     margin-left: 5%;
+    margin-right: 5%;
+}
+ 
+
+[class="ContainAll"]{
+/*    background-color: green;*/
+    background-color: var(--gray);
+    height: 850px;
+    width: 98%;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+     display: flex;
+    flex-direction: row;
+}
+[class="ContainNav"]{
+    border-radius: 15px;
+    padding-top:15%;
+    padding-left:2%;
+     
+}
+[class="Nav"]{
+    border-radius: 15px;
+    background-color: var(--white);
+     display: flex;
+    flex-direction: column;
+/*
+    margin-top: 30%;
+    margin-bottom: 30%;
+*/
+   
+    height:300px;
+    width:70px; 
+}
+ 
+      
+[class="ContainPrDeTe"]{
+    border-radius: 15px;
+    display: flex;
+   flex-direction: column;
+     justify-content: center;
+    margin-left: 2%;
+    
+}
+[class="ProjectName"]{
+    border-radius: 15px;
+    background-color: var(--white);
+    height: 40px;
+    width: 500px;
+      margin: 5px;
+    
+}
+[class="Description"]{
+    border-radius: 15px;
+    background-color: var(--white);
+    height: 40px;
+    width: 10%;
+      margin: 5px;
+}
+ [class="Team"]{
+    border-radius: 15px;
+    background-color: var(--white);
+    height: 40px;
+    width: 10%;
+       margin: 5px;
+}
+      
+
+ 
+[class="ContainCoDa"]{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+}
+
+[class="Company"]{
+    border-radius: 15px;
+    background-color: var(--white);
+    height: 40px;
+     width: 500px;
+     
+  margin: 5px;
+}
+[class="Data"]{
+    border-radius: 15px;
+   background-color: var(--white);
+    height: 40px;
+    width: 10%;
+ 
+  margin: 5px;
+  
+}
