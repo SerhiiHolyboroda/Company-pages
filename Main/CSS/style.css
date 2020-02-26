@@ -1,3 +1,5 @@
+
+
 :root{
 --gray:rgb(233,236,235) ;
  
@@ -61,10 +63,11 @@ margin-top: 1.5%;
 }
  
       
-[class="ContainPrDeTe"]{
+[class="ContainPrCo"]{
+    margin-top: 3%;
     border-radius: 15px;
     display: flex;
-   flex-direction: column;
+   flex-direction: row;
      justify-content: center;
     margin-left: 2%;
     
@@ -73,46 +76,56 @@ margin-top: 1.5%;
     border-radius: 15px;
     background-color: var(--white);
     height: 40px;
-    width: 500px;
+    width: 800px;
       margin: 5px;
     
 }
 [class="Description"]{
     border-radius: 15px;
     background-color: var(--white);
-    height: 40px;
-    width: 10%;
+    height: 200px;
+     width: 700px;
       margin: 5px;
 }
  [class="Team"]{
     border-radius: 15px;
     background-color: var(--white);
-    height: 40px;
-    width: 10%;
+    height: 200px;
+    width: 700px;
        margin: 5px;
 }
       
 
  
-[class="ContainCoDa"]{
+[class="ContainDsTm"]{
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  margin-left: 27%;
+  width: 500px;
+}
+.flexing{
     display: flex;
     flex-direction: column;
-  justify-content: center;
 }
-
+.flexing1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 [class="Company"]{
     border-radius: 15px;
     background-color: var(--white);
-    height: 40px;
-     width: 500px;
+    height: 100px;
+     width: 800px;
      
   margin: 5px;
 }
 [class="Data"]{
     border-radius: 15px;
    background-color: var(--white);
-    height: 40px;
-    width: 10%;
+   height: 300px;
+   width: 500px;
  
   margin: 5px;
   
